@@ -1,6 +1,5 @@
 ﻿import httpx
 from datetime import datetime
-import pygame as pg
 
 
 current_date = datetime.today().strftime('%d.%m.%Y')
