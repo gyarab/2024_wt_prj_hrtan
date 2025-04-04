@@ -8,7 +8,7 @@ class ProviderAdmin(admin.ModelAdmin):
     list_display = ["id", "title", "url"]
 
 class CartAdmin(admin.ModelAdmin):
-    list_display = ["id", "server_id:"]
+    list_display = ["id", "server_id"]
 
 class UserAdmin(admin.ModelAdmin):
     list_display = ["id", "name"]

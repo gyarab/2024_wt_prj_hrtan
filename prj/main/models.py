@@ -41,7 +41,7 @@ class User(models.Model):
 class ServerComment(models.Model):
     text = models.TextField(default="")
     server_id = models.IntegerField(null=True, blank=True, default=0)
-    user_id = models.ImageField(null=True, blank=True, default=0)
+    user_id = models.IntegerField(null=True, blank=True, default=0)
 
     def __str__(self):
         return f'{self.text} {self.server_id} {self.user_id}'
