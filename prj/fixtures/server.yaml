@@ -1,0 +1,2688 @@
+- model: main.server
+  pk: 1
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Netherlands
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 2
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 3
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Finland
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 4
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: France
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 145
+    provider_id: 1
+- model: main.server
+  pk: 5
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: The USA
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 6
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Netherlands
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 7
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Germany
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 218
+    provider_id: 1
+- model: main.server
+  pk: 8
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Finland
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 9
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: The USA
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 157
+    provider_id: 1
+- model: main.server
+  pk: 10
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Netherlands
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 11
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: United Kingdom
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 12
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Germany
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 13
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Finland
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 182
+    provider_id: 1
+- model: main.server
+  pk: 14
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: France
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 157
+    provider_id: 1
+- model: main.server
+  pk: 15
+  fields:
+    title: Instant Server tr.v2-top
+    region: Turkey
+    cpu: 2xE5-2680v4
+    cores: 28
+    ghz: 2.4
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 15
+    price: 169
+    provider_id: 1
+- model: main.server
+  pk: 16
+  fields:
+    title: Instant Server tr.v3-ultra+
+    region: Turkey
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe
+    port: 1
+    traffic: 15
+    price: 182
+    provider_id: 1
+- model: main.server
+  pk: 17
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc6m
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 194
+    provider_id: 1
+- model: main.server
+  pk: 18
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Netherlands
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 303
+    provider_id: 1
+- model: main.server
+  pk: 19
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 241
+    provider_id: 1
+- model: main.server
+  pk: 20
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Finland
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 218
+    provider_id: 1
+- model: main.server
+  pk: 21
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: The USA
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 241
+    provider_id: 1
+- model: main.server
+  pk: 22
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc
+    region: Germany
+    cpu: EPYC 7542
+    cores: 32
+    ghz: 2.9
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 241
+    provider_id: 1
+- model: main.server
+  pk: 23
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc
+    region: Finland
+    cpu: EPYC 7542
+    cores: 32
+    ghz: 2.9
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 241
+    provider_id: 1
+- model: main.server
+  pk: 24
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: United Kingdom
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 242
+    provider_id: 1
+- model: main.server
+  pk: 25
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: Germany
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 278
+    provider_id: 1
+- model: main.server
+  pk: 26
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: France
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 242
+    provider_id: 1
+- model: main.server
+  pk: 27
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc7
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x1.92TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 242
+    provider_id: 1
+- model: main.server
+  pk: 28
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: Netherlands
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 277
+    provider_id: 1
+- model: main.server
+  pk: 29
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: United Kingdom
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 253
+    provider_id: 1
+- model: main.server
+  pk: 30
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: Germany
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 277
+    provider_id: 1
+- model: main.server
+  pk: 31
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: France
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 253
+    provider_id: 1
+- model: main.server
+  pk: 32
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5d
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 278
+    provider_id: 1
+- model: main.server
+  pk: 33
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc6
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 303
+    provider_id: 1
+- model: main.server
+  pk: 34
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc3
+    region: Netherlands
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 325
+    provider_id: 1
+- model: main.server
+  pk: 35
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc3
+    region: Germany
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 362
+    provider_id: 1
+- model: main.server
+  pk: 36
+  fields:
+    title: Instant Dedicated Server bm.v4-silver
+    region: Netherlands
+    cpu: 2xSilver 4416+
+    cores: 40
+    ghz: 2.0
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 362
+    provider_id: 1
+- model: main.server
+  pk: 37
+  fields:
+    title: Instant Dedicated Server bm.v3-pro
+    region: Turkey
+    cpu: 2xGold 6330
+    cores: 56
+    ghz: 2.0
+    ram: 768
+    storage: 4x3.84TB NVMe
+    port: 1
+    traffic: 15
+    price: 422
+    provider_id: 1
+- model: main.server
+  pk: 38
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc7
+    region: The USA
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 422
+    provider_id: 1
+- model: main.server
+  pk: 39
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: Netherlands
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 483
+    provider_id: 1
+- model: main.server
+  pk: 40
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: Germany
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 422
+    provider_id: 1
+- model: main.server
+  pk: 41
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: France
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 483
+    provider_id: 1
+- model: main.server
+  pk: 42
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc4
+    region: Netherlands
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 472
+    provider_id: 1
+- model: main.server
+  pk: 43
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc3-10g
+    region: Netherlands
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 768
+    storage: 2x2TB NVMe
+    port: 10
+    traffic: 50
+    price: 787
+    provider_id: 1
+- model: main.server
+  pk: 44
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc
+    region: Netherlands
+    cpu: 2xEPYC 9354
+    cores: 64
+    ghz: 3.25
+    ram: 1024
+    storage: 2x3.84TB NVMe
+    port: 1
+    traffic: 50
+    price: 906
+    provider_id: 1
+- model: main.server
+  pk: 45
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-max-10g
+    region: Netherlands
+    cpu: 2xEPYC 9654
+    cores: 192
+    ghz: 2.4
+    ram: 1512
+    storage: 2x7.68TB NVMe
+    port: 10
+    traffic: 50
+    price: 1814
+    provider_id: 1
+- model: main.server
+  pk: 46
+  fields:
+    title: Instant Dedicated Server bm.v1-max+
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 61
+    provider_id: 1
+- model: main.server
+  pk: 47
+  fields:
+    title: Instant Dedicated Server bm.v1-max+
+    region: Germany
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 85
+    provider_id: 1
+- model: main.server
+  pk: 48
+  fields:
+    title: Instant Dedicated Server bm.v1-max
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 960GB SSD
+    port: 1
+    traffic: 50
+    price: 61
+    provider_id: 1
+- model: main.server
+  pk: 49
+  fields:
+    title: Instant Dedicated Server bm.v1-max
+    region: The USA
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 960GB SSD
+    port: 1
+    traffic: 50
+    price: 61
+    provider_id: 1
+- model: main.server
+  pk: 50
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Netherlands
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 51
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: United Kingdom
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 52
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Germany
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 53
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Finland
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 54
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: France
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 55
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 85
+    provider_id: 1
+- model: main.server
+  pk: 56
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Germany
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 57
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 58
+  fields:
+    title: Instant Dedicated Server bm.v1-str-4t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 59
+  fields:
+    title: Instant Dedicated Server bm.v1-str-4t
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 67
+    provider_id: 1
+- model: main.server
+  pk: 60
+  fields:
+    title: Instant Dedicated Server bm.v1-big
+    region: The USA
+    cpu: E5-1650v4
+    cores: 6
+    ghz: 3.6
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 61
+  fields:
+    title: Instant Dedicated Server bm.v1-big+
+    region: Netherlands
+    cpu: Xeon E5-16xx
+    cores: 6
+    ghz: 3.2
+    ram: 64
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 85
+    provider_id: 1
+- model: main.server
+  pk: 62
+  fields:
+    title: Instant Dedicated Server bm.v1-str-18t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x18TB HDD
+    port: 1
+    traffic: 50
+    price: 109
+    provider_id: 1
+- model: main.server
+  pk: 63
+  fields:
+    title: Instant Dedicated Server bm.v2-medium
+    region: Netherlands
+    cpu: Core i9-9900K
+    cores: 8
+    ghz: 3.6
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 120
+    provider_id: 1
+- model: main.server
+  pk: 64
+  fields:
+    title: Instant Dedicated Server bm.v2-top+
+    region: Netherlands
+    cpu: 2xE5-2680v4
+    cores: 28
+    ghz: 2.4
+    ram: 128
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 121
+    provider_id: 1
+- model: main.server
+  pk: 65
+  fields:
+    title: Instant Dedicated Server bm.v1-top+
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 145
+    provider_id: 1
+- model: main.server
+  pk: 66
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Netherlands
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 157
+    provider_id: 1
+- model: main.server
+  pk: 67
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Germany
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 182
+    provider_id: 1
+- model: main.server
+  pk: 68
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Finland
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 182
+    provider_id: 1
+- model: main.server
+  pk: 69
+  fields:
+    title: Instant Dedicated Server bm.v2-ultra
+    region: The USA
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 182
+    provider_id: 1
+- model: main.server
+  pk: 70
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra
+    region: Netherlands
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 194
+    provider_id: 1
+- model: main.server
+  pk: 71
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra
+    region: Finland
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 194
+    provider_id: 1
+- model: main.server
+  pk: 72
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: Netherlands
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 206
+    provider_id: 1
+- model: main.server
+  pk: 73
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 194
+    provider_id: 1
+- model: main.server
+  pk: 74
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: The USA
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 206
+    provider_id: 1
+- model: main.server
+  pk: 75
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc4
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x960GB SSD
+    port: 1
+    traffic: 50
+    price: 217
+    provider_id: 1
+- model: main.server
+  pk: 76
+  fields:
+    title: Instant Dedicated Server bm.v1-epyc
+    region: Germany
+    cpu: EPYC 7551
+    cores: 32
+    ghz: 2.0
+    ram: 256
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 229
+    provider_id: 1
+- model: main.server
+  pk: 77
+  fields:
+    title: Instant Dedicated Server bm.v1-epyc
+    region: Finland
+    cpu: EPYC 7551
+    cores: 32
+    ghz: 2.0
+    ram: 256
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 229
+    provider_id: 1
+- model: main.server
+  pk: 78
+  fields:
+    title: Instant Server tr.v4-ultra
+    region: Turkey
+    cpu: Ryzen 7950x
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe
+    port: 1
+    traffic: 15
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 79
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc3
+    region: Netherlands
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 241
+    provider_id: 1
+- model: main.server
+  pk: 80
+  fields:
+    title: Instant Server tr.v4-ultra-u2
+    region: Turkey
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 15
+    price: 242
+    provider_id: 1
+- model: main.server
+  pk: 81
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc
+    region: Netherlands
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 266
+    provider_id: 1
+- model: main.server
+  pk: 82
+  fields:
+    title: Instant Dedicated Server bm.v2-str-8t
+    region: United Kingdom
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 73
+    provider_id: 1
+- model: main.server
+  pk: 83
+  fields:
+    title: Instant Dedicated Server bm.v2-str-18t
+    region: Germany
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 2x18TB HDD
+    port: 1
+    traffic: 50
+    price: 97
+    provider_id: 1
+- model: main.server
+  pk: 84
+  fields:
+    title: Instant Dedicated Server bm.v2-max
+    region: Netherlands
+    cpu: Xeon E-2288G
+    cores: 8
+    ghz: 3.7
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 109
+    provider_id: 1
+- model: main.server
+  pk: 85
+  fields:
+    title: Instant Dedicated Server bm.v2-max
+    region: Germany
+    cpu: Xeon E-2288G
+    cores: 8
+    ghz: 3.7
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 121
+    provider_id: 1
+- model: main.server
+  pk: 86
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: Netherlands
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 121
+    provider_id: 1
+- model: main.server
+  pk: 87
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: Germany
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 121
+    provider_id: 1
+- model: main.server
+  pk: 88
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: France
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 121
+    provider_id: 1
+- model: main.server
+  pk: 89
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: Netherlands
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 90
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 91
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: The USA
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 92
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc-10g
+    region: Netherlands
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 10
+    traffic: 50
+    price: 362
+    provider_id: 1
+- model: main.server
+  pk: 93
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-mini
+    region: Netherlands
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 384
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 422
+    provider_id: 1
+- model: main.server
+  pk: 94
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-mini
+    region: Germany
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 384
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 459
+    provider_id: 1
+- model: main.server
+  pk: 95
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc5
+    region: The USA
+    cpu: 2xEPYC 7502
+    cores: 64
+    ghz: 2.5
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 424
+    provider_id: 1
+- model: main.server
+  pk: 96
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc2
+    region: Netherlands
+    cpu: 2xEPYC 9124
+    cores: 32
+    ghz: 3.0
+    ram: 768
+    storage: 2x3.84TB NVMe
+    port: 1
+    traffic: 50
+    price: 664
+    provider_id: 1
+- model: main.server
+  pk: 97
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Netherlands
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 98
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 99
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: Finland
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 100
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: France
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 120
+    provider_id: 1
+- model: main.server
+  pk: 101
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc2
+    region: The USA
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 102
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Netherlands
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 103
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Germany
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 180
+    provider_id: 1
+- model: main.server
+  pk: 104
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: Finland
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 105
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra-u2
+    region: The USA
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 50
+    price: 130
+    provider_id: 1
+- model: main.server
+  pk: 106
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Netherlands
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 107
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: United Kingdom
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 108
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Germany
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 109
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: Finland
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 150
+    provider_id: 1
+- model: main.server
+  pk: 110
+  fields:
+    title: Instant Dedicated Server bm.v2-gold
+    region: France
+    cpu: 2xGold 6140
+    cores: 36
+    ghz: 2.3
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 130
+    provider_id: 1
+- model: main.server
+  pk: 111
+  fields:
+    title: Instant Server tr.v2-top
+    region: Turkey
+    cpu: 2xE5-2680v4
+    cores: 28
+    ghz: 2.4
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 15
+    price: 140
+    provider_id: 1
+- model: main.server
+  pk: 112
+  fields:
+    title: Instant Server tr.v3-ultra+
+    region: Turkey
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe
+    port: 1
+    traffic: 15
+    price: 150
+    provider_id: 1
+- model: main.server
+  pk: 113
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc6m
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 160
+    provider_id: 1
+- model: main.server
+  pk: 114
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Netherlands
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 250
+    provider_id: 1
+- model: main.server
+  pk: 115
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 199
+    provider_id: 1
+- model: main.server
+  pk: 116
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: Finland
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 180
+    provider_id: 1
+- model: main.server
+  pk: 117
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5
+    region: The USA
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 199
+    provider_id: 1
+- model: main.server
+  pk: 118
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc
+    region: Germany
+    cpu: EPYC 7542
+    cores: 32
+    ghz: 2.9
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 199
+    provider_id: 1
+- model: main.server
+  pk: 119
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc
+    region: Finland
+    cpu: EPYC 7542
+    cores: 32
+    ghz: 2.9
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 199
+    provider_id: 1
+- model: main.server
+  pk: 120
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: United Kingdom
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 200
+    provider_id: 1
+- model: main.server
+  pk: 121
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: Germany
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 122
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra
+    region: France
+    cpu: Ryzen 9950X
+    cores: 16
+    ghz: 4.3
+    ram: 128
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 200
+    provider_id: 1
+- model: main.server
+  pk: 123
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc7
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x1.92TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 200
+    provider_id: 1
+- model: main.server
+  pk: 124
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: Netherlands
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 229
+    provider_id: 1
+- model: main.server
+  pk: 125
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: United Kingdom
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 209
+    provider_id: 1
+- model: main.server
+  pk: 126
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: Germany
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 229
+    provider_id: 1
+- model: main.server
+  pk: 127
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc2
+    region: France
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 1
+    traffic: 50
+    price: 209
+    provider_id: 1
+- model: main.server
+  pk: 128
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc5d
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 230
+    provider_id: 1
+- model: main.server
+  pk: 129
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc6
+    region: The USA
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 384
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 250
+    provider_id: 1
+- model: main.server
+  pk: 130
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc3
+    region: Netherlands
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 269
+    provider_id: 1
+- model: main.server
+  pk: 131
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc3
+    region: Germany
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 299
+    provider_id: 1
+- model: main.server
+  pk: 132
+  fields:
+    title: Instant Dedicated Server bm.v4-silver
+    region: Netherlands
+    cpu: 2xSilver 4416+
+    cores: 40
+    ghz: 2.0
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 299
+    provider_id: 1
+- model: main.server
+  pk: 133
+  fields:
+    title: Instant Dedicated Server bm.v3-pro
+    region: Turkey
+    cpu: 2xGold 6330
+    cores: 56
+    ghz: 2.0
+    ram: 768
+    storage: 4x3.84TB NVMe
+    port: 1
+    traffic: 15
+    price: 349
+    provider_id: 1
+- model: main.server
+  pk: 134
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc7
+    region: The USA
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 349
+    provider_id: 1
+- model: main.server
+  pk: 135
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: Netherlands
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 399
+    provider_id: 1
+- model: main.server
+  pk: 136
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: Germany
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 349
+    provider_id: 1
+- model: main.server
+  pk: 137
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc6
+    region: France
+    cpu: 2xEPYC 7742
+    cores: 128
+    ghz: 2.25
+    ram: 512
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 399
+    provider_id: 1
+- model: main.server
+  pk: 138
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc4
+    region: Netherlands
+    cpu: 2xEPYC 7542
+    cores: 64
+    ghz: 2.9
+    ram: 512
+    storage: 2x3.84TB SSD
+    port: 1
+    traffic: 50
+    price: 390
+    provider_id: 1
+- model: main.server
+  pk: 139
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc3-10g
+    region: Netherlands
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 768
+    storage: 2x2TB NVMe
+    port: 10
+    traffic: 50
+    price: 650
+    provider_id: 1
+- model: main.server
+  pk: 140
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc
+    region: Netherlands
+    cpu: 2xEPYC 9354
+    cores: 64
+    ghz: 3.25
+    ram: 1024
+    storage: 2x3.84TB NVMe
+    port: 1
+    traffic: 50
+    price: 749
+    provider_id: 1
+- model: main.server
+  pk: 141
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-max-10g
+    region: Netherlands
+    cpu: 2xEPYC 9654
+    cores: 192
+    ghz: 2.4
+    ram: 1512
+    storage: 2x7.68TB NVMe
+    port: 10
+    traffic: 50
+    price: 1499
+    provider_id: 1
+- model: main.server
+  pk: 142
+  fields:
+    title: Instant Dedicated Server bm.v1-max+
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 50
+    provider_id: 1
+- model: main.server
+  pk: 143
+  fields:
+    title: Instant Dedicated Server bm.v1-max+
+    region: Germany
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 70
+    provider_id: 1
+- model: main.server
+  pk: 144
+  fields:
+    title: Instant Dedicated Server bm.v1-max
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 960GB SSD
+    port: 1
+    traffic: 50
+    price: 50
+    provider_id: 1
+- model: main.server
+  pk: 145
+  fields:
+    title: Instant Dedicated Server bm.v1-max
+    region: The USA
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 960GB SSD
+    port: 1
+    traffic: 50
+    price: 50
+    provider_id: 1
+- model: main.server
+  pk: 146
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Netherlands
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 147
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: United Kingdom
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 148
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Germany
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 149
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: Finland
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 150
+  fields:
+    title: Instant Dedicated Server bm.v2-promo
+    region: France
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 151
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 70
+    provider_id: 1
+- model: main.server
+  pk: 152
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Germany
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 153
+  fields:
+    title: Instant Dedicated Server bm.v1-str-8t
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 154
+  fields:
+    title: Instant Dedicated Server bm.v1-str-4t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 155
+  fields:
+    title: Instant Dedicated Server bm.v1-str-4t
+    region: Finland
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 16
+    storage: 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 55
+    provider_id: 1
+- model: main.server
+  pk: 156
+  fields:
+    title: Instant Dedicated Server bm.v1-big
+    region: The USA
+    cpu: E5-1650v4
+    cores: 6
+    ghz: 3.6
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 157
+  fields:
+    title: Instant Dedicated Server bm.v1-big+
+    region: Netherlands
+    cpu: Xeon E5-16xx
+    cores: 6
+    ghz: 3.2
+    ram: 64
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 70
+    provider_id: 1
+- model: main.server
+  pk: 158
+  fields:
+    title: Instant Dedicated Server bm.v1-str-18t
+    region: Netherlands
+    cpu: Xeon E3-12xx
+    cores: 4
+    ghz: 3.2
+    ram: 32
+    storage: 2x18TB HDD
+    port: 1
+    traffic: 50
+    price: 90
+    provider_id: 1
+- model: main.server
+  pk: 159
+  fields:
+    title: Instant Dedicated Server bm.v2-medium
+    region: Netherlands
+    cpu: Core i9-9900K
+    cores: 8
+    ghz: 3.6
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 99
+    provider_id: 1
+- model: main.server
+  pk: 160
+  fields:
+    title: Instant Dedicated Server bm.v2-top+
+    region: Netherlands
+    cpu: 2xE5-2680v4
+    cores: 28
+    ghz: 2.4
+    ram: 128
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 100
+    provider_id: 1
+- model: main.server
+  pk: 161
+  fields:
+    title: Instant Dedicated Server bm.v1-top+
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 120
+    provider_id: 1
+- model: main.server
+  pk: 162
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Netherlands
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 130
+    provider_id: 1
+- model: main.server
+  pk: 163
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Germany
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 150
+    provider_id: 1
+- model: main.server
+  pk: 164
+  fields:
+    title: Instant Dedicated Server bm.v3-ultra+
+    region: Finland
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 150
+    provider_id: 1
+- model: main.server
+  pk: 165
+  fields:
+    title: Instant Dedicated Server bm.v2-ultra
+    region: The USA
+    cpu: Ryzen 5950X
+    cores: 16
+    ghz: 3.4
+    ram: 128
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 150
+    provider_id: 1
+- model: main.server
+  pk: 166
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra
+    region: Netherlands
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 160
+    provider_id: 1
+- model: main.server
+  pk: 167
+  fields:
+    title: Instant Dedicated Server bm.v4-ultra
+    region: Finland
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 160
+    provider_id: 1
+- model: main.server
+  pk: 168
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: Netherlands
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 170
+    provider_id: 1
+- model: main.server
+  pk: 169
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 160
+    provider_id: 1
+- model: main.server
+  pk: 170
+  fields:
+    title: Instant Dedicated Server bm.v1-node
+    region: The USA
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 256
+    storage: 2x1.92TB SSD + 2x4TB HDD
+    port: 1
+    traffic: 50
+    price: 170
+    provider_id: 1
+- model: main.server
+  pk: 171
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc4
+    region: Germany
+    cpu: 2xEPYC 7451
+    cores: 48
+    ghz: 2.3
+    ram: 384
+    storage: 4x960GB SSD
+    port: 1
+    traffic: 50
+    price: 179
+    provider_id: 1
+- model: main.server
+  pk: 172
+  fields:
+    title: Instant Dedicated Server bm.v1-epyc
+    region: Germany
+    cpu: EPYC 7551
+    cores: 32
+    ghz: 2.0
+    ram: 256
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 189
+    provider_id: 1
+- model: main.server
+  pk: 173
+  fields:
+    title: Instant Dedicated Server bm.v1-epyc
+    region: Finland
+    cpu: EPYC 7551
+    cores: 32
+    ghz: 2.0
+    ram: 256
+    storage: 2x960Gb SSD
+    port: 1
+    traffic: 50
+    price: 189
+    provider_id: 1
+- model: main.server
+  pk: 174
+  fields:
+    title: Instant Server tr.v4-ultra
+    region: Turkey
+    cpu: Ryzen 7950x
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1TB NVMe
+    port: 1
+    traffic: 15
+    price: 190
+    provider_id: 1
+- model: main.server
+  pk: 175
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc3
+    region: Netherlands
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 256
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 199
+    provider_id: 1
+- model: main.server
+  pk: 176
+  fields:
+    title: Instant Server tr.v4-ultra-u2
+    region: Turkey
+    cpu: Ryzen 7950X
+    cores: 16
+    ghz: 4.5
+    ram: 128
+    storage: 2x1.92TB U2 NVMe
+    port: 1
+    traffic: 15
+    price: 200
+    provider_id: 1
+- model: main.server
+  pk: 177
+  fields:
+    title: Instant Dedicated Server bm.v2-epyc
+    region: Netherlands
+    cpu: 2xEPYC 7551
+    cores: 64
+    ghz: 2.0
+    ram: 256
+    storage: 2x1.92TB SSD
+    port: 1
+    traffic: 50
+    price: 220
+    provider_id: 1
+- model: main.server
+  pk: 178
+  fields:
+    title: Instant Dedicated Server bm.v2-str-8t
+    region: United Kingdom
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 60
+    provider_id: 1
+- model: main.server
+  pk: 179
+  fields:
+    title: Instant Dedicated Server bm.v2-str-18t
+    region: Germany
+    cpu: EPYC 3151
+    cores: 4
+    ghz: 2.7
+    ram: 32
+    storage: 2x18TB HDD
+    port: 1
+    traffic: 50
+    price: 80
+    provider_id: 1
+- model: main.server
+  pk: 180
+  fields:
+    title: Instant Dedicated Server bm.v2-max
+    region: Netherlands
+    cpu: Xeon E-2288G
+    cores: 8
+    ghz: 3.7
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 90
+    provider_id: 1
+- model: main.server
+  pk: 181
+  fields:
+    title: Instant Dedicated Server bm.v2-max
+    region: Germany
+    cpu: Xeon E-2288G
+    cores: 8
+    ghz: 3.7
+    ram: 128
+    storage: 2x960GB SSD
+    port: 1
+    traffic: 50
+    price: 100
+    provider_id: 1
+- model: main.server
+  pk: 182
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: Netherlands
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 100
+    provider_id: 1
+- model: main.server
+  pk: 183
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: Germany
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 100
+    provider_id: 1
+- model: main.server
+  pk: 184
+  fields:
+    title: Instant Dedicated Server bm.v5-ultra-mini
+    region: France
+    cpu: Ryzen 9700X
+    cores: 8
+    ghz: 3.8
+    ram: 64
+    storage: 1TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 100
+    provider_id: 1
+- model: main.server
+  pk: 185
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: Netherlands
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 190
+    provider_id: 1
+- model: main.server
+  pk: 186
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: Finland
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 190
+    provider_id: 1
+- model: main.server
+  pk: 187
+  fields:
+    title: Instant Dedicated Server bm.v1-node2
+    region: The USA
+    cpu: 2xE5-2680v2
+    cores: 20
+    ghz: 2.8
+    ram: 384
+    storage: 2x3.84TB SSD + 2x8TB HDD
+    port: 1
+    traffic: 50
+    price: 190
+    provider_id: 1
+- model: main.server
+  pk: 188
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc-10g
+    region: Netherlands
+    cpu: EPYC 7702
+    cores: 64
+    ghz: 2.0
+    ram: 512
+    storage: 2x1.92TB NVMe
+    port: 10
+    traffic: 50
+    price: 299
+    provider_id: 1
+- model: main.server
+  pk: 189
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-mini
+    region: Netherlands
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 384
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 349
+    provider_id: 1
+- model: main.server
+  pk: 190
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc-mini
+    region: Germany
+    cpu: EPYC 9354
+    cores: 32
+    ghz: 3.25
+    ram: 384
+    storage: 2x2TB NVMe
+    port: 1
+    traffic: 50
+    price: 379
+    provider_id: 1
+- model: main.server
+  pk: 191
+  fields:
+    title: Instant Dedicated Server bm.v3-epyc5
+    region: The USA
+    cpu: 2xEPYC 7502
+    cores: 64
+    ghz: 2.5
+    ram: 512
+    storage: 2x3.84TB NVMe SSD
+    port: 1
+    traffic: 50
+    price: 350
+    provider_id: 1
+- model: main.server
+  pk: 192
+  fields:
+    title: Instant Dedicated Server bm.v4-epyc2
+    region: Netherlands
+    cpu: 2xEPYC 9124
+    cores: 32
+    ghz: 3.0
+    ram: 768
+    storage: 2x3.84TB NVMe
+    port: 1
+    traffic: 50
+    price: 549
+    provider_id: 1

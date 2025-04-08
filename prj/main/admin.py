@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Server, Provider, Cart, User, ServerComment
 
 class ServerAdmin(admin.ModelAdmin):
-    list_display = ["id", "title", "region", "cpu", "cores", "ghz", "storage", "port", "traffic", "price"]
+    list_display = ["id", "title", "region", "cpu", "cores", "ghz", "ram", "storage", "port", "traffic", "price", "provider_id"]
 
 class ProviderAdmin(admin.ModelAdmin):
     list_display = ["id", "title", "url"]

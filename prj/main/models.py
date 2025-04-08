@@ -5,7 +5,8 @@ class Server(models.Model):
     region = models.CharField(max_length=20, default="")
     cpu = models.CharField(max_length=20, default="")
     cores = models.IntegerField(null=True, blank=True, default=0)
-    ghz = models.IntegerField(null=True, blank=True, default=0)
+    ghz = models.FloatField(null=True, blank=True, default=0)
+    ram = models.IntegerField(null=True, blank=True, default=0)
     storage = models.CharField(max_length=30, default="")
     port = models.IntegerField(null=True, blank=True, default=0)
     traffic = models.IntegerField(null=True, blank=True, default=0)
@@ -13,7 +14,7 @@ class Server(models.Model):
     provider_id = models.IntegerField(null=True, blank=True, default=0)
 
     def __str__(self):
-        return f'{self.title} {self.region} {self.cpu} {self.cores} {self.ghz} {self.storage} {self.port} {self.traffic} {self.price}'
+        return f'{self.title} {self.region} {self.cpu} {self.cores} {self.ghz} {self.ram} {self.storage} {self.port} {self.traffic} {self.price} {self.provider_id}'
     
     
 class Provider(models.Model):
