@@ -7,4 +7,9 @@
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem placeat veritatis iure est at, doloribus dolor ipsum labore temporibus maiores culpa eum necessitatibus sunt exercitationem possimus deserunt veniam facere.
     </p>
+
+    <br>
+    {% for server in servers %}
+        {{ server.title }} {{ server.price }} <br>
+    {% endfor %}
 {% endblock %}
