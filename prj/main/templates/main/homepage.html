@@ -10,6 +10,7 @@
 
     <br>
     {% for server in servers %}
-        {{ server.title }} {{ server.price }} <br>
+        <h2> {{ server.price }} </h2>
+        {{ server.title }} - {{ server.region }}, {{ server.cpu }}, {{ server.cores }}, {{ server.ghz }}<br>
     {% endfor %}
 {% endblock %}
