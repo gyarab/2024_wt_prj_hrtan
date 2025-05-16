@@ -26,22 +26,49 @@
                             <a class="nav-link" href="wishlist">Wishlist</a>
                         </li>
                     </ul>
-                <form class="form-inline my-2 my-lg-0" method="GET" action="/">
-                  <input 
-                    name="search"
-                    value="{{ request.GET.search }}"
-                    class="form-control mr-sm-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  >
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
                 </div>
             </div>
         </nav>
         
+        
+        <form method="GET" action="/">
+            <label for="price">Price </label>
+            <input name="price" type="range" id="price" min="0" max="1814" value="{{ request.GET.price|default:'1814' }}">
+            <span id="price value">{{ request.GET.price|default:"1814" }}&emsp;</span>
 
+            <label for="cores">Cores </label>
+            <input name="cores" type="range" id="cores" min="0" max="192" value="{{ request.GET.cores|default:'192' }}">
+            <span id="cores value">{{ request.GET.cores|default:"192" }}&emsp;</span>
+
+            <label for="ghz">Ghz </label>
+            <input name="ghz" type="range" id="ghz" min="0" max="4.5" value="{{ request.GET.ghz|default:'4.5' }}" step="0.1">
+            <span id="ghz value">{{ request.GET.ghz|default:"4.5" }}&emsp;</span>
+
+            <label for="ram">Ram </label>
+            <input name="ram" type="range" id="ram" min="0" max="1512" value="{{ request.GET.ram|default:'1512' }}" step="8">
+            <span id="ram value">{{ request.GET.ram|default:"1512" }}&emsp;</span>
+
+            <label for="port">Port </label>
+            <input name="port" type="range" id="port" min="1" max="10" value="{{ request.GET.port|default:'10' }}" step="9">
+            <span id="port value">{{ request.GET.port|default:"10" }}&emsp;</span>
+
+            <label for="traffic">Traffic </label>
+            <input name="traffic" type="range" id="traffic" min="0" max="50" value="{{ request.GET.traffic|default:'50' }}" step="5">
+            <span id="traffic value">{{ request.GET.traffic|default:"50" }}</span>
+
+            <div class="input-group mb-3">
+                <input 
+                    name="search"
+                    value="{{ request.GET.search }}"
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                >
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+        </form>
+        
         
 
         
@@ -51,5 +78,53 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    const price = document.getElementById("price");
+    const priceValue = document.getElementById("price value");
+
+    price.addEventListener("input", () => {
+    priceValue.textContent = price.value;
+    priceValue.innerHTML += "&emsp;"
+    });
+
+    const cores = document.getElementById("cores");
+    const coresValue = document.getElementById("cores value");
+
+    cores.addEventListener("input", () => {
+    coresValue.textContent = cores.value;
+    coresValue.innerHTML += "&emsp;"
+    });
+
+    const ghz = document.getElementById("ghz");
+    const ghzValue = document.getElementById("ghz value");
+
+    ghz.addEventListener("input", () => {
+    ghzValue.textContent = ghz.value;
+    ghzValue.innerHTML += "&emsp;"
+    });
+
+    const ram = document.getElementById("ram");
+    const ramValue = document.getElementById("ram value");
+
+    ram.addEventListener("input", () => {
+    ramValue.textContent = ram.value;
+    ramValue.innerHTML += "&emsp;"
+    });
+
+    const port = document.getElementById("port");
+    const portValue = document.getElementById("port value");
+
+    port.addEventListener("input", () => {
+    portValue.textContent = port.value;
+    portValue.innerHTML += "&emsp;"
+    });
+
+    const traffic = document.getElementById("traffic");
+    const trafficValue = document.getElementById("traffic value");
+
+    traffic.addEventListener("input", () => {
+    trafficValue.textContent = traffic.value;
+    });
+</script>
 </body>
 </html>

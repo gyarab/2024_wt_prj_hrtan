@@ -11,7 +11,7 @@ def get_homepage(request):
         servers = servers.filter(title__icontains=request.GET.get("search"))
     
     context = {
-        "servers": servers
+        "servers": servers,
     }
     return render(request, "main/homepage.html", context)
 

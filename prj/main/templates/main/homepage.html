@@ -9,8 +9,25 @@
     </p>
 
     <br>
-    {% for server in servers %}
-        <h2> {{ server.price }} </h2>
-        {{ server.title }} - {{ server.region }}, {{ server.cpu }}, {{ server.cores }}, {{ server.ghz }}<br>
-    {% endfor %}
+    
+    <div class="row">
+        {% for server in servers %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <div class="card-body pb-0">
+                        <h5 class="card-title"> {{ server.title }} </h5>
+                        <p class="card-text"> region: {{ server.region }} <br>
+                             cpu: {{ server.cpu }} <br> cores: {{ server.cores }} <br>
+                             ghz: {{ server.ghz }} <br> ram: {{ server.ram }} <br>
+                             storage: {{ server.storage }} <br>
+                             port: {{ server.port }} <br>
+                             traffic: {{ server.traffic }} <br>
+                             provider {{ server.provider_id }}</p>
+                        <button href="#" class="btn btn-primary mb-3">Price: {{ server.price }}</button>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
 {% endblock %}
